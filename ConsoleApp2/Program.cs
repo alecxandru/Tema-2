@@ -83,35 +83,54 @@ namespace ConsoleApp2
               Console.Read();*/
 
             //ex8
-            int caseSwitch = 6;
-            switch (caseSwitch)
-            {
-                case 1:
-                    Console.WriteLine("Luni");
-                    break;
-                case 2:
-                    Console.WriteLine("Marti");
-                    break;
-                case 3:
-                    Console.WriteLine("Miercuri");
-                    break;
-                case 4:
-                    Console.WriteLine("Joi");
-                    break;
-                case 5:
-                    Console.WriteLine("Vineri");
-                    break;
-                case 6:
-                    Console.WriteLine("Sambata");
-                    break;
-                case 7:
-                    Console.WriteLine("Duminica");
-                    break;
-                default:
-                    Console.WriteLine("csf, n-ai csf");
-                    break;
-                    Console.Read();
+            /* int caseSwitch = 8;
+             switch (caseSwitch)
+             {
+                 case 1:
+                     Console.WriteLine("Luni");
+                     break;
+                 case 2:
+                     Console.WriteLine("Marti");
+                     break;
+                 case 3:
+                     Console.WriteLine("Miercuri");
+                     break;
+                 case 4:
+                     Console.WriteLine("Joi");
+                     break;
+                 case 5:
+                     Console.WriteLine("Vineri");
+                     break;
+                 case 6:
+                     Console.WriteLine("Sambata");
+                     break;
+                 case 7:
+                     Console.WriteLine("Duminica");
+                     break;
+                 default:
+                     Console.WriteLine("csf, n-ai csf");
+                     break;
+             }
+             Console.Read();*/
+
+            //ex9
+            /*  int a = 13;
+              if (a%2==0)     
+              { Console.WriteLine("Numarul este par") ; }
+              else
+              { Console.WriteLine("Numarul este impar"); }
+              Console.Read();*/
+
+            int a = 10;
+            for (int b = 1; b <= a; b++) 
+            { 
+                if (a % b == 0) 
+                Console.WriteLine(b);
+                       
             }
+            Console.Read();
+
+
         }
     }
 }
